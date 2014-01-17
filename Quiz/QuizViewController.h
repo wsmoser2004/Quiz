@@ -9,5 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface QuizViewController : UIViewController
+{
+    int currentQuestionIndex;
+    
+    // The model objects
+    NSMutableArray *questions;
+    NSMutableArray *answers;
+}
+
+- (IBAction)showAnswer:(id)sender;
+- (IBAction)showQuestion:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *questionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *answerLabel;
 
 @end

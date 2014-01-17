@@ -21,6 +21,7 @@
 		EF2B015B18871BDC007BD92D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2B013D18871BDC007BD92D /* UIKit.framework */; };
 		EF2B016318871BDC007BD92D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF2B016118871BDC007BD92D /* InfoPlist.strings */; };
 		EF2B016518871BDC007BD92D /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B016418871BDC007BD92D /* QuizTests.m */; };
+		EF7B079A1888B8FA003A3C59 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7B07991888B8FA003A3C59 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EF2B016018871BDC007BD92D /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		EF2B016218871BDC007BD92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF2B016418871BDC007BD92D /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		EF7B07991888B8FA003A3C59 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				EF2B014F18871BDC007BD92D /* QuizViewController.m */,
 				EF2B015118871BDC007BD92D /* Images.xcassets */,
 				EF2B014018871BDC007BD92D /* Supporting Files */,
+				EF7B07991888B8FA003A3C59 /* Storyboard.storyboard */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF2B015218871BDC007BD92D /* Images.xcassets in Resources */,
+				EF7B079A1888B8FA003A3C59 /* Storyboard.storyboard in Resources */,
 				EF2B014418871BDC007BD92D /* InfoPlist.strings in Resources */,
 				EF2B014D18871BDC007BD92D /* Main.storyboard in Resources */,
 			);
@@ -461,6 +465,7 @@
 				EF2B016A18871BDC007BD92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF2B016B18871BDC007BD92D /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				EF2B016D18871BDC007BD92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
